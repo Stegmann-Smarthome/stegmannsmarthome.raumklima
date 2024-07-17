@@ -7,7 +7,7 @@
 IP-Symcon Modulbibliothek für die Überwachung des Raumklimas.
 
 - __Luftfeuchtigkeit__ ([Dokumentation](luftfeuchtigkeit))  
-	Kurze Beschreibung des Moduls.
+	Zur Überwachung der Luftfeuchtigkeit mit einem Grenzwert + Benachrichtigung.
 
 ## Historie
 
