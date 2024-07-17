@@ -1,4 +1,4 @@
-# Heizungssteuerung
+# Raumklima
 
 [![Version](https://img.shields.io/badge/Symcon-PHP--Bibliothek-purple)](https://www.symcon.de/service/dokumentation/entwicklerbereich/sdk-tools/sdk-php/)
 [![Product](https://img.shields.io/badge/Symcon--Version-7.1-blue)](https://www.symcon.de/produkt/)
@@ -7,12 +7,7 @@
 IP-Symcon Modulbibliothek für die Überwachung des Raumklimas.
 
 - __Luftfeuchtigkeit__ ([Dokumentation](luftfeuchtigkeit))  
-	Mit diesem Modul lässt sich die Luftfeuchtigkeit im Raum überwachen.
-	Wird der eingestellte Grenzwert überschritten, zeigt die Variable an,
-	das gelüftet werden sollte. Bei Bedarf, kann man sich eine Push-Nachricht senden
-	um informiert zu werden. Die eingestellt Meldeverzögerubng gibt an, nach wie viel
-	Minuten die Nachricht gesendet werden soll, nachdem der Grenzwert überschritten wurde
-	und überschritten bleibt.
+
 
 ## Historie
 

@@ -1,5 +1,8 @@
-# Raumklima
-Beschreibung des Moduls.
+# Luftfeuchtigkeit
+Mit diesem Modul lässt sich die Luftfeuchtigkeit im Raum überwachen.
+Wird der eingestellte Grenzwert überschritten, zeigt die Variable an, das gelüftet werden sollte.
+Bei Bedarf, kann man sich eine Push-Nachricht senden um informiert zu werden. Die eingestellt Meldeverzögerubng gibt an, nach wie viel
+Minuten die Nachricht gesendet werden soll, nachdem der Grenzwert überschritten wurde und überschritten bleibt.
 
 ### Inhaltsverzeichnis
 
@@ -23,9 +26,9 @@ Optional ist es möglich sich eine Nachricht im Frontend anzeigen zu lassen bzw.
 
 ### 3. Software-Installation
 
-* Über den Module Store das 'Raumklima'-Modul installieren.
-* Alternativ über das Module Control folgende URL hinzufügen: 
-
+* Das Modul läst sich per Modul-Contro, über folgende URL hinzufügen:
+  https://github.com/Stegmann-Smarthome/stegmannsmarthome.raumklima.git
+  
 ### 4. Einrichten der Instanzen in IP-Symcon
 
  Unter 'Instanz hinzufügen' kann das 'Raumklima'-Modul mithilfe des Schnellfilters gefunden werden.  
