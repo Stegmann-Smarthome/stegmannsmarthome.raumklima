@@ -17,7 +17,7 @@ Minuten die Nachricht gesendet werden soll, nachdem der Grenzwert überschritten
 ### 1. Funktionsumfang
 
 Mit diesem Modul lässt sich die Luftfeuchtigkeit in einem Raum / an einem Ort überwachen.
-Sobald ein ausgewählter Grenzwert überschritten ist, wird der Benutzer optisch darüber informiert.
+Sobald ein ausgewählter Grenzwert überschritten ist, wird der Benutzer darüber informiert.
 Optional ist es möglich sich eine Nachricht im Frontend anzeigen zu lassen.
 Die eingestellt Meldeverzögerung gibt an, nach wie vielen Minuten die Nachricht gesendet werden soll, nachdem der Grenzwert überschritten wurde und überschritten bleibt.
 
