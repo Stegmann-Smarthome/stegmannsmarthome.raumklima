@@ -4,7 +4,7 @@
 [![Product](https://img.shields.io/badge/Symcon--Version-7.1-blue)](https://www.symcon.de/produkt/)
 [![Licence](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-green)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-IP-Symcon Modulbibliothek für die Überwachung des Raumklimas.
+IP-Symcon Modulbibliothek für die Raumklimaüberwachung
 
 - __Luftfeuchtigkeit__ ([Dokumentation](luftfeuchtigkeit))  
 	Zur Überwachung der Luftfeuchtigkeit mit einem Grenzwert + Benachrichtigung.
