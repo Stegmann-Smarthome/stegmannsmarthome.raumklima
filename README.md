@@ -6,7 +6,7 @@
 
 IP-Symcon Modulbibliothek für die Überwachung des Raumklimas.
 
-- __Luftfeuchtigkeit__ ([Dokumentation](Luftfeuchtigkeit))  
+- __Luftfeuchtigkeit__ ([Dokumentation](luftfeuchtigkeit))  
 	Mit diesem Modul lässt sich die Luftfeuchtigkeit im Raum überwachen.
 	Wird der eingestellte Grenzwert überschritten, zeigt die Variable an,
 	das gelüftet werden sollte. Bei Bedarf, kann man sich eine Push-Nachricht senden
