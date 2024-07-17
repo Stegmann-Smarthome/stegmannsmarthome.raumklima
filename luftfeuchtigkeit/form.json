@@ -1,0 +1,22 @@
+{
+    "elements": [
+        {
+            "type": "SelectVariable",
+            "name": "ID-Luftfeuchtigkeit",
+            "value": "1",
+            "caption": "Quelle (Ist-Luftfeuchtigkeit)"
+        },
+        {
+            "type": "SelectInstance",
+            "name": "ID-Webfront",
+            "value": "",
+            "caption": "Webfrontauswahl (Push-Nachricht)"
+        },
+        {   "type": "CheckBox",
+            "name": "ID-Push",
+            "caption": "Push Nachrichten: An / Aus"
+        }
+    ],
+    "actions": [],
+    "status": []
+}

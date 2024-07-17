@@ -1,0 +1,12 @@
+{
+    "id": "{6EFD7EFF-5142-4731-88F9-0A4F658B0E6F}",
+    "name": "Luftfeuchtigkeit",
+    "type": 3,
+    "vendor": "Stegmann Smarthome",
+    "aliases": [],
+    "parentRequirements": [],
+    "childRequirements": [],
+    "implemented": [],
+    "prefix": "RK",
+    "url": "https://www.stegmann-smarthome.de"
+}

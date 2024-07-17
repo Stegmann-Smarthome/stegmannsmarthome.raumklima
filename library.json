@@ -1,0 +1,12 @@
+{
+    "id": "{57267FCC-2587-7C66-CD97-8807A273ECFB}",
+    "name": "Raumklima",
+    "author": "Daniel Stegmann",
+    "url": "  https://www.stegmann-smarthome.de",
+    "compatibility": {
+        "version": "7.1"
+    },
+    "version": "1.0",
+    "build": 0,
+    "date": 7
+}
