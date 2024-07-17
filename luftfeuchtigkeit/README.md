@@ -1,7 +1,7 @@
 # Luftfeuchtigkeit
 Mit diesem Modul lässt sich die Luftfeuchtigkeit im Raum überwachen.
 Wird der eingestellte Grenzwert überschritten, zeigt die Variable an, das gelüftet werden sollte.
-Bei Bedarf, kann man sich eine Push-Nachricht senden um informiert zu werden. Die eingestellt Meldeverzögerubng gibt an, nach wie viel
+Bei Bedarf, kann man sich eine Push-Nachricht senden um informiert zu werden. Die eingestellt Meldeverzögerung gibt an, nach wie viel
 Minuten die Nachricht gesendet werden soll, nachdem der Grenzwert überschritten wurde und überschritten bleibt.
 
 ### Inhaltsverzeichnis
@@ -16,9 +16,10 @@ Minuten die Nachricht gesendet werden soll, nachdem der Grenzwert überschritten
 
 ### 1. Funktionsumfang
 
-Diese Modul wird genutzt um die Luftfeuchtigkeit in einem Raum / an einem Ort zu überwachen.
-Sobald ein Grenzwert überschritten ist, wird der Benutzer optisch darüber informiert.
-Optional ist es möglich sich eine Nachricht im Frontend anzeigen zu lassen bzw. sich auf das Handy schicken zu lassen.
+Mit diesem Modul lässt sich die Luftfeuchtigkeit in einem Raum / an einem Ort überwachen.
+Sobald ein ausgewählter Grenzwert überschritten ist, wird der Benutzer optisch darüber informiert.
+Optional ist es möglich sich eine Nachricht im Frontend anzeigen zu lassen.
+Die eingestellt Meldeverzögerung gibt an, nach wie vielen Minuten die Nachricht gesendet werden soll, nachdem der Grenzwert überschritten wurde und überschritten bleibt.
 
 ### 2. Voraussetzungen
 
@@ -26,23 +27,23 @@ Optional ist es möglich sich eine Nachricht im Frontend anzeigen zu lassen bzw.
 
 ### 3. Software-Installation
 
-* Das Modul läst sich per Modul-Contro, über folgende URL hinzufügen:
+* Das Modul läst sich per Modul-Controk, über folgende URL hinzufügen:
   https://github.com/Stegmann-Smarthome/stegmannsmarthome.raumklima.git
   
 ### 4. Einrichten der Instanzen in IP-Symcon
 
- Unter 'Instanz hinzufügen' kann das 'Raumklima'-Modul mithilfe des Schnellfilters gefunden werden.  
+ Unter 'Instanz hinzufügen' kann das 'Luftfeuchtigkeit'-Modul mithilfe des Schnellfilters gefunden werden.  
 	- Weitere Informationen zum Hinzufügen von Instanzen in der [Dokumentation der Instanzen](https://www.symcon.de/service/dokumentation/konzepte/instanzen/#Instanz_hinzufügen)
 
 __Konfigurationsseite__:
 
-Auf der Konfigurationsseite
+Auf der Konfigurationsseite des Moduls, 
 
 Name                                      | Beschreibung
 ----------------------------------------- | -----------------------------------------------
-Quelle (Ist-Luftfeuchtigkeit)             | Auswahl des Sensors    
+Quelle (Ist-Luftfeuchtigkeit)             | Auswahl des Sensors  
 Kachel Visualisierung (Push-Nachricht)    | Auswahl der Visualisierungs-ID
-Push Nachrichten: An / Aus                | An- und Auschalten der Push-Benachrichtigung
+Push Nachrichten: An / Aus                | An- und Auschalten der Push-Benachrichtigung (Frontend)
 
 ### 5. Statusvariablen und Profile
 
@@ -76,7 +77,7 @@ Das Modul bietet keine direkten Funktionsaufrufe.
 
 ### 8. Versionshistorie
 
-- 16.07.2024: v1.0 Erstrelease
+- 17.07.2024: v1.0 Erstrelease
 
 ## Spenden
 
