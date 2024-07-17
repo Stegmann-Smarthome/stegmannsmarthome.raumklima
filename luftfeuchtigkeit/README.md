@@ -23,7 +23,7 @@ Die eingestellt Meldeverzögerung gibt an, nach wie vielen Minuten die Nachricht
 
 ### 3. Software-Installation
 
-* Das Modul läst sich per Modul-Controk, über folgende URL hinzufügen:
+* Das Modul läst sich per Modul-Controk, über folgende URL hinzufügen:  
   https://github.com/Stegmann-Smarthome/stegmannsmarthome.raumklima.git
   
 ### 4. Einrichten der Instanzen in IP-Symcon
@@ -64,7 +64,7 @@ SS.Klima.Meldeverzoegerung  | Integer
 
 ### 6. WebFront
 
-Im Webfrontend lässt sich der Grenzwert und die Meldeverzögerung einstellen.
+Im Webfrontend lässt sich der Grenzwert und die Meldeverzögerung einstellen.  
 Die Meldeverzögerung gibt an wann die Nachricht an das Webfrontend gesendet werden soll.
 
 ### 7. PHP-Befehlsreferenz
