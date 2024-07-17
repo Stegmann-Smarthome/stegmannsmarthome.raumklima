@@ -1,8 +1,4 @@
 # Luftfeuchtigkeit
-Mit diesem Modul lässt sich die Luftfeuchtigkeit im Raum überwachen.
-Wird der eingestellte Grenzwert überschritten, zeigt die Variable an, das gelüftet werden sollte.
-Bei Bedarf, kann man sich eine Push-Nachricht senden um informiert zu werden. Die eingestellt Meldeverzögerung gibt an, nach wie viel
-Minuten die Nachricht gesendet werden soll, nachdem der Grenzwert überschritten wurde und überschritten bleibt.
 
 ### Inhaltsverzeichnis
 
