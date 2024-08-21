@@ -12,10 +12,17 @@
             "value": "",
             "caption": "Webfrontauswahl (Push-Nachricht)"
         },
+        {
+            "type": "SelectInstance",
+            "name": "ID-Target",
+            "value": "",
+            "caption": "Zielseite"
+        },
         {   "type": "CheckBox",
             "name": "ID-Push",
             "caption": "Push Nachrichten: An / Aus"
         }
+
     ],
     "actions": [],
     "status": []

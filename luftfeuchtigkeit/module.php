@@ -22,6 +22,7 @@ class luftfeuchtigkeit extends IPSModule {
         $this->RegisterPropertyInteger("ID-Luftfeuchtigkeit", 0);
         $this->RegisterPropertyInteger("ID-Webfront", 0);
         $this->RegisterPropertyBoolean("ID-Push", 0);
+        $this->RegisterPropertyInteger("ID-Target", 0);
 
 
         ############################## Aktivieren von Standardaktion von Variablen (Objektbaum) ##############################
@@ -164,11 +165,12 @@ class luftfeuchtigkeit extends IPSModule {
     $pushID     = $this->ReadPropertyInteger("ID-Webfront");
     $pushstatus = $this->ReadPropertyBoolean("ID-Push");
     $Bufferdata = $this->GetBuffer("PushNachricht");
+    $targetID   = $this->ReadPropertyInteger("ID-Target");
         
 
     if ($status == true) {
         if ($minuten > $meldeverzoegerung && $pushstatus == true && $Bufferdata != "Sent") {
-            VISU_PostNotificationEx($pushID, "Luftfeuchtigkeit!", "Die Luftfeuchtigkeit ist zu hoch!", "Alert", "alarm", 57393);
+            VISU_PostNotificationEx($pushID, "Luftfeuchtigkeit!", "Die Luftfeuchtigkeit ist zu hoch!", "Alert", "alarm", 0);
             $this->SetBuffer("PushNachricht", "Sent");
         }
     }
