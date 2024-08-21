@@ -170,7 +170,7 @@ class luftfeuchtigkeit extends IPSModule {
 
     if ($status == true) {
         if ($minuten > $meldeverzoegerung && $pushstatus == true && $Bufferdata != "Sent") {
-            VISU_PostNotificationEx($pushID, "Luftfeuchtigkeit!", "Die Luftfeuchtigkeit ist zu hoch!", "Alert", "alarm", 0);
+            VISU_PostNotificationEx($pushID, "Luftfeuchtigkeit!", "Die Luftfeuchtigkeit ist zu hoch!", "Alert", "alarm", $targetID);
             $this->SetBuffer("PushNachricht", "Sent");
         }
     }
